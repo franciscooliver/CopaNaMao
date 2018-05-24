@@ -8,9 +8,16 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="grupoA">Grupo A</string>
 
-    <string name="txt1">0</string>
-    <string name="txt2">Grupo A</string>
-    <string name="txt3">Grupo A</string>
-    <string name="txt4">Grupo A</string>
+    <!--teste list bandeiras e nome das seleçoes-->
+    <string name="txt1">Rússia</string>
+    <string name="txt2">Arábia Saudita</string>
+    <string name="txt3">Egito</string>
+    <string name="txt4">Uruguai</string>
+
+    <string name="txt5">Portugal</string>
+    <string name="txt6">Espanha</string>
+    <string name="txt7">Marrocos</string>
+    <string name="txt8">Irã</string>
+
 
 </resources>
