@@ -15,11 +15,12 @@
             android:theme="?attr/actionBarTheme" />
 
 
-
     <FrameLayout
         android:id="@+id/fragment_content"
+        android:layout_marginTop="55dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"/>
 
 
 </android.support.design.widget.CoordinatorLayout>
