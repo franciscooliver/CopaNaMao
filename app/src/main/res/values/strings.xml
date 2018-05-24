@@ -9,15 +9,23 @@
     <string name="grupoA">Grupo A</string>
 
     <!--teste list bandeiras e nome das seleçoes-->
+    <string name="grupoa">Grupo A</string>
     <string name="txt1">Rússia</string>
     <string name="txt2">Arábia Saudita</string>
     <string name="txt3">Egito</string>
     <string name="txt4">Uruguai</string>
 
+    <string name="grupob">Grupo B</string>
     <string name="txt5">Portugal</string>
     <string name="txt6">Espanha</string>
     <string name="txt7">Marrocos</string>
     <string name="txt8">Irã</string>
+
+    <string name="grupoc">Grupo B</string>
+    <string name="txt9">França</string>
+    <string name="txt10">Austrália</string>
+    <string name="txt11">Peru</string>
+    <string name="txt12">Dinamarca</string>
 
 
 </resources>

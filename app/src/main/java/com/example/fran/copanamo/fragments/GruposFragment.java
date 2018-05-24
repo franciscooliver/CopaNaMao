@@ -23,6 +23,7 @@ public class GruposFragment extends Fragment {
     private RecyclerView myRv;
     Grupo grupo;
     Grupo grupo2;
+    Grupo grupo3;
 
     @Nullable
     @Override
@@ -57,6 +58,19 @@ public class GruposFragment extends Fragment {
         grupo2.setTexview4(getResources().getString(R.string.txt8));
 
         grupos.add(grupo2);
+
+        grupo3 = new Grupo();
+        grupo3.setBandeira1(getResources().getDrawable(R.drawable.franca));
+        grupo3.setBandeira2(getResources().getDrawable(R.drawable.australia));
+        grupo3.setBandeira3(getResources().getDrawable(R.drawable.peru));
+        grupo3.setBandeira4(getResources().getDrawable(R.drawable.dinamarca));
+        grupo3.setTexview1(getResources().getString(R.string.txt9));
+        grupo3.setTexview2(getResources().getString(R.string.txt10));
+        grupo3.setTexview3(getResources().getString(R.string.txt11));
+        grupo3.setTexview4(getResources().getString(R.string.txt12));
+
+        grupos.add(grupo3);
+
 
         GrupoRecyclerAdapter adapter = new GrupoRecyclerAdapter(grupos);
         myRv.setAdapter(adapter);

@@ -7,16 +7,20 @@ import android.graphics.Color;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 
 import com.example.fran.copanamo.fragments.GruposFragment;
 import com.example.fran.copanamo.fragments.NoticiasFragment;
 import com.example.fran.copanamo.fragments.ResultadosFragment;
 import com.example.fran.copanamo.fragments.TabelaFragment;
+import com.example.fran.copanamo.utils.Preferencias;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -42,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     Drawer drawer;
+    AlertDialog alert;
+    Preferencias preferencias;
+    String nomeUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +57,36 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar( toolbar );
+        preferencias = new Preferencias(this);
+
+        if(preferencias.recuperaNomeUsuario() ==""  || preferencias.recuperaNomeUsuario() == null){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            View view = getLayoutInflater().inflate(R.layout.dialog_nome_user, null);
+            final EditText nome = view.findViewById(R.id.edt_nome);
+            Button btnOk = view.findViewById(R.id.btnOk);
+            btnOk.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    nomeUsuario = nome.getText().toString();
+                    preferencias.salvaNomeUsuario(nomeUsuario);
+                    alert.dismiss();
+                    setDrawer();
+                }
+            });
+
+            builder.setView(view);
+            builder.setCancelable(false);
+            alert = builder.create();
+            alert.show();
+        }
+
+        if(preferencias.recuperaNomeUsuario() != null){
+            setDrawer();
+        }
+
+    }
+
+    private void setDrawer(){
 
         final PrimaryDrawerItem itemTabela = new PrimaryDrawerItem()
                 .withName("Tabela")
@@ -82,9 +119,8 @@ public class MainActivity extends AppCompatActivity {
                 .withHeaderBackground(R.drawable.header)
                 .addProfiles(
                         new ProfileDrawerItem()
-                                .withName("Aqui vai o nome do usuario")
-                                .withEmail("exemplo@exemplo.com")
-                                .withIcon(getResources().getDrawable(R.drawable.profile))
+                                .withName("Olá " + preferencias.recuperaNomeUsuario())
+
                 )
                 .build();
 
@@ -118,13 +154,12 @@ public class MainActivity extends AppCompatActivity {
                 .withIdentifier(ID_ND_FOOTER));
 
         // Pega o FragmentManager
-         fm = getSupportFragmentManager();
+        fm = getSupportFragmentManager();
 
-// Abre uma transação e adiciona
+        // Abre uma transação e adiciona fragment
         FragmentTransaction ft = fm.beginTransaction();
         ft.add(R.id.fragment_content, new TabelaFragment());
         ft.commit();
-
 
     }
 
@@ -141,11 +176,13 @@ public class MainActivity extends AppCompatActivity {
                 ft.commit();
                 break;
             case (int) ID_ND_NOTICIAS:
+                getSupportActionBar().setTitle("Últimas notícias da copa");
                 ft.replace(R.id.fragment_content, new NoticiasFragment());
                 ft.commit();
                 break;
 
             case (int) ID_ND_GRUPO:
+                getSupportActionBar().setTitle("GRUPO A-H");
                 ft.replace(R.id.fragment_content, new GruposFragment());
                 ft.commit();
                 break;
