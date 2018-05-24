@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d84315</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="background_toolbar">#d84315</color>
+    <color name="background_toolbar2">#0288d1</color>
+    <color name="verde">#FF2CEF7D</color>
+    <color name="white">#fff</color>
+    <color name="fundo_tela_login">#0288d1</color>
+
+    <!-- card view-->
+    <color name="back_textView">#bdbdbd</color>
+    <color name="text_color">#212121</color>
+</resources>

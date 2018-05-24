@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CopaNaMão</string>
+    <string name="nao_possui_conta">Não possui conta?Cadastre-se</string>
+    <string name="btn_cds_usuario">Cadastrar usuário</string>
+    <string name="ja_possuo_conta">Já possuo conta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="grupoA">Grupo A</string>
+
+    <string name="txt1">0</string>
+    <string name="txt2">Grupo A</string>
+    <string name="txt3">Grupo A</string>
+    <string name="txt4">Grupo A</string>
+
+</resources>
