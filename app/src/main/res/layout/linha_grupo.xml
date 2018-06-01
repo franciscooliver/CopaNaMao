@@ -29,18 +29,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:background="@color/back_textView">
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@color/layout_top_cardView">
 
                 <TextView
-                    android:id="@+id/textV1"
+                    android:id="@+id/nome_grupo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grupo A"
-                    android:textColor="@color/text_color"
-
-                    android:paddingStart="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"/>
+                    android:textColor="@color/text_color_topo"
+                    android:paddingStart="10dp"
+                   />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -48,39 +48,39 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/P"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="J"
-                        android:textColor="@color/text_color"
+                        android:text="P"
+                        android:textColor="@color/text_color_topo"
                         android:layout_marginStart="125dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"/>
+                        />
 
                     <TextView
+                        android:id="@+id/V"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="GP:GC"
-                        android:textColor="@color/text_color"
+                        android:text="V"
+                        android:textColor="@color/text_color_topo"
                         android:paddingStart="35dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"/>
+                        />
                     <TextView
+                        android:id="@+id/E"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+/-"
-                        android:textColor="@color/text_color"
-                        android:paddingStart="20dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"/>
+                        android:text="E"
+                        android:textColor="@color/text_color_topo"
+                        android:paddingStart="33dp"
+                       />
 
                     <TextView
+                        android:id="@+id/D"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pzs."
-                        android:textColor="@color/text_color"
-                        android:paddingStart="30dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"/>
+                        android:text="D"
+                        android:textColor="@color/text_color_topo"
+                        android:paddingStart="40dp"
+                       />
 
                 </LinearLayout>
 
@@ -95,6 +95,7 @@
                 android:layout_below="@+id/lltxt1"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -142,44 +143,45 @@
                 android:orientation="horizontal"
                 android:layout_alignParentRight="true"
                 android:layout_toRightOf="@+id/divider1"
+                android:layout_marginTop="10dp"
                 android:layout_below="@+id/lltxt1"
                 >
 
                 <TextView
+                    android:id="@+id/p_russia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="60dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/v_russia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0  :  0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/e_russia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="30dp"
-                   />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/d_russia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
             </LinearLayout>
 
@@ -190,6 +192,7 @@
                 android:layout_below="@+id/ll1"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -228,43 +231,44 @@
                 android:layout_alignParentRight="true"
                 android:layout_toRightOf="@+id/divider1"
                 android:layout_below="@+id/ll1Direita"
+                android:layout_marginTop="10dp"
                 >
 
                 <TextView
+                    android:id="@+id/p_arabia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="60dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/v_arabia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0  :  0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                   />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/e_arabia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="30dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/d_arabia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
             </LinearLayout>
 
@@ -276,6 +280,7 @@
                 android:layout_below="@+id/ll2"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -313,43 +318,44 @@
                 android:layout_alignParentRight="true"
                 android:layout_toRightOf="@+id/divider1"
                 android:layout_below="@+id/ll2direita"
+                android:layout_marginTop="10dp"
                 >
 
                 <TextView
+                    android:id="@+id/p_egito"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="60dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/v_egito"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0  :  0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/e_egito"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="30dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/d_egito"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
                     android:layout_marginTop="10dp"
                     android:paddingStart="40dp"
-                   />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
             </LinearLayout>
 
@@ -360,7 +366,9 @@
                 android:layout_below="@+id/ll3"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -397,43 +405,44 @@
                 android:layout_alignParentRight="true"
                 android:layout_toRightOf="@+id/divider1"
                 android:layout_below="@+id/ll3direita"
+                android:layout_marginTop="10dp"
                 >
 
                 <TextView
+                    android:id="@+id/p_uru"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:paddingStart="60dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0  :  0"
-                    android:layout_marginTop="10dp"
-                    android:paddingStart="40dp"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
                     android:text="0"
-                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:id="@+id/v_uru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="40dp"
+                    android:text="0"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:id="@+id/e_uru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
                     android:paddingStart="30dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
                 <TextView
+                    android:id="@+id/d_uru"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:text="0"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:paddingStart="40dp"
-                    />
+                    android:text="0"
+                    android:textColor="@color/text_color" />
 
             </LinearLayout>
 

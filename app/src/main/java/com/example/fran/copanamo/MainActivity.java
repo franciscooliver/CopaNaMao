@@ -1,9 +1,13 @@
 package com.example.fran.copanamo;
 
 
+import android.app.Dialog;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.Rect;
+import android.graphics.Typeface;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -11,9 +15,13 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 import com.example.fran.copanamo.fragments.GruposFragment;
@@ -32,7 +40,6 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
-
 
 
 public class MainActivity extends AppCompatActivity {
@@ -68,9 +75,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     nomeUsuario = nome.getText().toString();
-                    preferencias.salvaNomeUsuario(nomeUsuario);
-                    alert.dismiss();
-                    setDrawer();
+                    if(validaCampoNome(nome,nomeUsuario)){
+                        preferencias.salvaNomeUsuario(nomeUsuario);
+                        alert.dismiss();
+                        setDrawer();
+                    }
+
                 }
             });
 
@@ -82,8 +92,33 @@ public class MainActivity extends AppCompatActivity {
 
         if(preferencias.recuperaNomeUsuario() != null){
             setDrawer();
+
         }
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+
+        return true;
+    }
+
+    private boolean validaCampoNome(EditText edt_nome, String nome){
+         boolean result = true;
+
+        if("".equals(nome) || nome == null){
+            edt_nome.setError("Preencha com seu nome");
+            result = false;
+        }
+        return result;
     }
 
     private void setDrawer(){
@@ -168,10 +203,12 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction ft = fm.beginTransaction();
         switch ((int) drawerItem.getIdentifier()){
             case (int) ID_ND_TABELA :
+                getSupportActionBar().setTitle("Tabela");
                 ft.replace(R.id.fragment_content, new TabelaFragment());
                 ft.commit();
                 break;
             case (int) ID_ND_RESULTADOS:
+                getSupportActionBar().setTitle("Resultados");
                 ft.replace(R.id.fragment_content, new ResultadosFragment());
                 ft.commit();
                 break;
@@ -199,4 +236,6 @@ public class MainActivity extends AppCompatActivity {
         drawer.closeDrawer();
 
     }
+
+
 }

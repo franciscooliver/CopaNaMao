@@ -1,6 +1,9 @@
 package com.example.fran.copanamo.fragments;
 
-import android.graphics.drawable.Drawable;
+
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -10,72 +13,102 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 
 import com.example.fran.copanamo.R;
 import com.example.fran.copanamo.adapters.GrupoRecyclerAdapter;
 import com.example.fran.copanamo.entidades.Grupo;
+import com.example.fran.copanamo.service.RetrofitService;
+import com.example.fran.copanamo.service.RetrofitServiceGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class GruposFragment extends Fragment {
     private RecyclerView myRv;
-    Grupo grupo;
-    Grupo grupo2;
-    Grupo grupo3;
-
+    ProgressDialog progressDialog;
+    List<Grupo> grupos;
+    View viewRoot;
+    AlertDialog alert;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-         View viewRoot = inflater.inflate(R.layout.fragment_grupo, container, false);
+        viewRoot = inflater.inflate(R.layout.fragment_grupo, container, false);
 
          myRv = viewRoot.findViewById(R.id.myRv);
          myRv.setLayoutManager(new LinearLayoutManager(getContext()));
+         progressDialog = new ProgressDialog(getContext());
+        progressDialog.setTitle("Carregando grupos");
+        progressDialog.setCancelable(true);
+        progressDialog.show();
 
+         grupos = new ArrayList<>();
 
-        grupo = new Grupo();
-        List<Grupo> grupos = new ArrayList<>();
-        grupo.setBandeira1(getResources().getDrawable(R.drawable.russia));
-        grupo.setBandeira2(getResources().getDrawable(R.drawable.arabia_saudita));
-        grupo.setBandeira3(getResources().getDrawable(R.drawable.egito));
-        grupo.setBandeira4(getResources().getDrawable(R.drawable.uruguai));
-        grupo.setTexview1(getResources().getString(R.string.txt1));
-        grupo.setTexview2(getResources().getString(R.string.txt2));
-        grupo.setTexview3(getResources().getString(R.string.txt3));
-        grupo.setTexview4(getResources().getString(R.string.txt4));
-
-        grupos.add(grupo);
-
-        grupo2 = new Grupo();
-        grupo2.setBandeira1(getResources().getDrawable(R.drawable.portugal));
-        grupo2.setBandeira2(getResources().getDrawable(R.drawable.espanha));
-        grupo2.setBandeira3(getResources().getDrawable(R.drawable.marrocos));
-        grupo2.setBandeira4(getResources().getDrawable(R.drawable.ira));
-        grupo2.setTexview1(getResources().getString(R.string.txt5));
-        grupo2.setTexview2(getResources().getString(R.string.txt6));
-        grupo2.setTexview3(getResources().getString(R.string.txt7));
-        grupo2.setTexview4(getResources().getString(R.string.txt8));
-
-        grupos.add(grupo2);
-
-        grupo3 = new Grupo();
-        grupo3.setBandeira1(getResources().getDrawable(R.drawable.franca));
-        grupo3.setBandeira2(getResources().getDrawable(R.drawable.australia));
-        grupo3.setBandeira3(getResources().getDrawable(R.drawable.peru));
-        grupo3.setBandeira4(getResources().getDrawable(R.drawable.dinamarca));
-        grupo3.setTexview1(getResources().getString(R.string.txt9));
-        grupo3.setTexview2(getResources().getString(R.string.txt10));
-        grupo3.setTexview3(getResources().getString(R.string.txt11));
-        grupo3.setTexview4(getResources().getString(R.string.txt12));
-
-        grupos.add(grupo3);
-
-
-        GrupoRecyclerAdapter adapter = new GrupoRecyclerAdapter(grupos);
-        myRv.setAdapter(adapter);
-
-
-        return viewRoot;
+         retornaDadosGrupos();
+         return viewRoot;
     }
+
+    private void retornaDadosGrupos(){
+        RetrofitService service = RetrofitServiceGenerator.createService(RetrofitService.class);
+
+        Call<List<Grupo>> call = service.getGrupos();
+        call.enqueue(new Callback<List<Grupo>>() {
+            @Override
+            public void onResponse(Call<List<Grupo>> call, Response<List<Grupo>> response) {
+                if (response.isSuccessful()){
+                     grupos = response.body();
+                     GrupoRecyclerAdapter adapter = new GrupoRecyclerAdapter(grupos);
+                     myRv.setAdapter(adapter);
+                     progressDialog.dismiss();
+                }else{
+                    progressDialog.dismiss();
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                    builder.setTitle("Erro");
+                    builder.setMessage("Houve um erro durante o carregamento\n" +
+                            "dos grupos, tente novamente");
+                    builder.setCancelable(false);
+                    builder.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                           retornaDadosGrupos();
+                        }
+                    });
+                    alert = builder.create();
+                    alert.show();
+
+                }
+                
+            }
+
+            @Override
+            public void onFailure(Call<List<Grupo>> call, Throwable t) {
+                progressDialog.dismiss();
+                final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                builder.setTitle("Erro");
+                builder.setMessage("Houve um erro durante o carregamento\n" +
+                        "dos grupos, tente novamente");
+                builder.setCancelable(true);
+                builder.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        alert.dismiss();
+                        retornaDadosGrupos();
+                    }
+                });
+                alert = builder.create();
+                alert.show();
+                Toast.makeText(getContext(), "Erro na requisição / "+t.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+    }
+
+
 }

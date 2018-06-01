@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#d84315</color>
     <color name="colorPrimaryDark">#bf360c</color>
-    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccent">#0288d1</color>
 
     <color name="background_toolbar">#d84315</color>
     <color name="background_toolbar2">#0288d1</color>
@@ -10,7 +10,24 @@
     <color name="white">#fff</color>
     <color name="fundo_tela_login">#0288d1</color>
 
+
     <!-- card view-->
     <color name="back_textView">#bdbdbd</color>
     <color name="text_color">#212121</color>
+    <color name="text_color_topo">#fff</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="colorPrimaryTextDefaultMaterialLight">#DE000000</color>
+    <color name="colorSecondaryTextDefaultMaterialLight">#8A000000</color>
+    <color name="layout_top_cardView">#FF3F7EA1</color>
+
+    <color name="colorPrimaryTextDefaultMaterialDark">#FFFFFFFF</color>
+    <color name="colorSecondaryTextDefaultMaterialDark">#B3FFFFFF</color>
+
+    <!--target-->
+    <color name="green">#FF2CEF7D</color>
+    <color name="black">#3d3939</color>
+    <color name="red">#ff1e40</color>
+    <color name="blue">#0288d1</color>
+
 </resources>

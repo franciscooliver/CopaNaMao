@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:paddingTop="20dp"
     android:paddingBottom="20dp"
+    android:theme="@style/theme_dialog"
     >
 
 
@@ -26,6 +27,7 @@
         android:layout_gravity="center_horizontal"
         android:ems="10"
         android:hint="Seu nome?"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:inputType="textPersonName"/>
 
