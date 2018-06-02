@@ -1,33 +1,26 @@
 package com.example.fran.copanamo;
 
 
-import android.app.Dialog;
+import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
-import android.graphics.Rect;
-import android.graphics.Typeface;
-import android.support.annotation.NonNull;
+import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
-
 import com.example.fran.copanamo.fragments.GruposFragment;
+import com.example.fran.copanamo.fragments.MainFragment;
 import com.example.fran.copanamo.fragments.NoticiasFragment;
 import com.example.fran.copanamo.fragments.ResultadosFragment;
-import com.example.fran.copanamo.fragments.TabelaFragment;
 import com.example.fran.copanamo.utils.Preferencias;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
@@ -44,10 +37,11 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 public class MainActivity extends AppCompatActivity {
     private static final long ID_ND_FOOTER = 500;
-    private static final long ID_ND_RESULTADOS = 501;
-    private static final long ID_ND_TABELA = 502;
-    private static final long ID_ND_GRUPO = 503;
-    private static final long ID_ND_NOTICIAS = 504;
+    private static final long ID_ND_HOME = 501;
+    private static final long ID_ND_RESULTADOS = 502;
+    private static final long ID_ND_PARTIDAS = 503;
+    private static final long ID_ND_GRUPO = 504;
+    private static final long ID_ND_NOTICIAS = 505;
 
     FragmentManager fm;
 
@@ -123,9 +117,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void setDrawer(){
 
-        final PrimaryDrawerItem itemTabela = new PrimaryDrawerItem()
-                .withName("Tabela")
-                .withIdentifier(ID_ND_TABELA)
+        final PrimaryDrawerItem itemHome = new PrimaryDrawerItem()
+                .withName("Home")
+                .withIdentifier(ID_ND_HOME)
+                .withIcon(GoogleMaterial.Icon.gmd_person);
+
+        final PrimaryDrawerItem itemPartidas = new PrimaryDrawerItem()
+                .withName("Partidas")
+                .withIdentifier(ID_ND_PARTIDAS)
                 .withIcon(GoogleMaterial.Icon.gmd_person);
 
         final PrimaryDrawerItem itemGrupos = new PrimaryDrawerItem()
@@ -165,7 +164,8 @@ public class MainActivity extends AppCompatActivity {
                 .withToolbar(toolbar)
                 .addDrawerItems(
                         new SectionDrawerItem().withName("Opções do App"),
-                        itemTabela,
+                        itemHome,
+                        itemPartidas,
                         itemGrupos,
                         itemResultados,
                         itemNoticias
@@ -191,9 +191,9 @@ public class MainActivity extends AppCompatActivity {
         // Pega o FragmentManager
         fm = getSupportFragmentManager();
 
-        // Abre uma transação e adiciona fragment
+         //Abre uma transação e adiciona fragment
         FragmentTransaction ft = fm.beginTransaction();
-        ft.add(R.id.fragment_content, new TabelaFragment());
+        ft.add(R.id.fragment_content, new MainFragment());
         ft.commit();
 
     }
@@ -202,10 +202,20 @@ public class MainActivity extends AppCompatActivity {
         // Abre uma transação e adiciona
         FragmentTransaction ft = fm.beginTransaction();
         switch ((int) drawerItem.getIdentifier()){
-            case (int) ID_ND_TABELA :
-                getSupportActionBar().setTitle("Tabela");
-                ft.replace(R.id.fragment_content, new TabelaFragment());
+
+            case (int) ID_ND_HOME:
+                getSupportActionBar().setTitle("Copa na mão");
+                ft.replace(R.id.fragment_content, new MainFragment());
                 ft.commit();
+
+                break;
+            case (int) ID_ND_PARTIDAS :
+
+                /*getSupportActionBar().setTitle("Tabela");
+                ft.replace(R.id.fragment_content, new PartidasFragment());
+                ft.commit();*/
+                Intent intent = new Intent(MainActivity.this, ActivityPartidasTabbed.class);
+                startActivity( intent );
                 break;
             case (int) ID_ND_RESULTADOS:
                 getSupportActionBar().setTitle("Resultados");

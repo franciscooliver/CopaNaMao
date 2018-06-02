@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_toolbar2"
+    android:gravity="center_vertical"
     android:orientation="vertical"
     android:paddingTop="20dp"
     android:paddingBottom="20dp"
-    android:theme="@style/theme_dialog"
-    >
+    android:theme="@style/theme_dialog">
 
 
     <TextView
@@ -16,9 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
         android:text="Digite seu nome para continuar"
-        android:textSize="15dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="15dp" />
 
     <EditText
         android:id="@+id/edt_nome"
@@ -27,17 +27,18 @@
         android:layout_gravity="center_horizontal"
         android:ems="10"
         android:hint="Seu nome?"
-        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:paddingTop="25dp"
         android:textColor="@color/white"
-        android:inputType="textPersonName"/>
+        android:textColorHint="@color/edt_nome_dialog" />
 
     <Button
         android:id="@+id/btnOk"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="OK"
+        android:layout_marginTop="25dp"
         android:background="@drawable/fundo_botao"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/white"/>
+        android:text="OK"
+        android:textColor="@color/white" />
 </LinearLayout>

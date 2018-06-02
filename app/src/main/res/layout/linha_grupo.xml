@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="15dp"
+    android:layout_marginTop="0dp"
     >
 
     <android.support.v7.widget.CardView
@@ -39,6 +39,7 @@
                     android:layout_height="wrap_content"
                     android:text="Grupo A"
                     android:textColor="@color/text_color_topo"
+                    android:fontFamily="@font/nanum_gothic"
                     android:paddingStart="10dp"
                    />
 
@@ -51,9 +52,9 @@
                         android:id="@+id/P"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="P"
+                        android:text="Pts."
                         android:textColor="@color/text_color_topo"
-                        android:layout_marginStart="125dp"
+                        android:layout_marginStart="113dp"
                         />
 
                     <TextView
@@ -62,7 +63,7 @@
                         android:layout_height="wrap_content"
                         android:text="V"
                         android:textColor="@color/text_color_topo"
-                        android:paddingStart="35dp"
+                        android:paddingStart="29dp"
                         />
                     <TextView
                         android:id="@+id/E"
@@ -70,7 +71,7 @@
                         android:layout_height="wrap_content"
                         android:text="E"
                         android:textColor="@color/text_color_topo"
-                        android:paddingStart="33dp"
+                        android:paddingStart="27dp"
                        />
 
                     <TextView
@@ -79,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:text="D"
                         android:textColor="@color/text_color_topo"
-                        android:paddingStart="40dp"
+                        android:paddingStart="42dp"
                        />
 
                 </LinearLayout>
@@ -120,6 +121,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|center_vertical"
                     android:paddingStart="15dp"
+                    android:fontFamily="@font/nanum_gothic"
                     android:text="Rússia"
                     android:textColor="@color/text_color" />
 
@@ -217,6 +219,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|center_vertical"
                     android:paddingStart="15dp"
+                    android:fontFamily="@font/nanum_gothic"
                     android:text="Arabia Saudita"
                     android:textColor="@color/text_color" />
 
@@ -305,6 +308,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|center_vertical"
                     android:paddingStart="15dp"
+                    android:fontFamily="@font/nanum_gothic "
                     android:text="Egito"
                     android:textColor="@color/text_color" />
 
@@ -392,6 +396,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|center_vertical"
                     android:paddingStart="15dp"
+                    android:fontFamily="@font/nanum_gothic "
                     android:text="Uruguai"
                     android:textColor="@color/text_color" />
 
