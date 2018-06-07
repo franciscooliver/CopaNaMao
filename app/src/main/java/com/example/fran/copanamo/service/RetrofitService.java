@@ -1,5 +1,8 @@
 package com.example.fran.copanamo.service;
 
+import com.example.fran.copanamo.entidades.Fase1Dados;
+import com.example.fran.copanamo.entidades.Fase2Dados;
+import com.example.fran.copanamo.entidades.Fase3Dados;
 import com.example.fran.copanamo.entidades.Grupo;
 import com.example.fran.copanamo.entidades.Noticia;
 
@@ -21,5 +24,14 @@ public interface RetrofitService {
 
     @GET("noticias")
     Call<List<Noticia>> getNoticias();
+
+    @GET("dadosfases")
+    Call<List<Fase1Dados>> getDadosFases();
+
+    @GET("dadosfases2get")
+    Call<List<Fase2Dados>> getDadosFases2();
+
+    @GET("dadosfases3get")
+    Call<List<Fase3Dados>> getDadosFases3();
 
 }

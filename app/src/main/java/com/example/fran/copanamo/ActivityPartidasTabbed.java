@@ -20,7 +20,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.fran.copanamo.fragments.PartidasFragment;
+import com.example.fran.copanamo.fragments.PartidasFragment2;
+import com.example.fran.copanamo.fragments.PartidasFragment3;
 import com.example.fran.copanamo.utils.DepthPageTransformer;
 
 public class ActivityPartidasTabbed extends AppCompatActivity {
@@ -46,7 +50,7 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_tabbed);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Partidas");
+        getSupportActionBar().setTitle("Partidas - fase de grupos");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -56,14 +60,6 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
         mViewPager.setPageTransformer(true, new DepthPageTransformer());
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
     }
 
@@ -83,67 +79,15 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.info) {
+
         }
 
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
-        private static final String ARG_SECTION_NUMBER = "section_number";
-
-        public PlaceholderFragment() {
-        }
-
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
-            Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-            fragment.setArguments(args);
-            return fragment;
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_partidas_tabbed1, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
-            return rootView;
-        }
-    }
-
-    public static class Fragment2 extends Fragment {
-        public Fragment2(){
-
-        }
-
-
-        @Override
-        public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_partidas_tabbed2, container, false);
-
-            return rootView;
-        }
-    }
-
-    /**
-     * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
-     * one of the sections/tabs/pages.
-     */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -153,20 +97,30 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
+
             switch (position){
                 case 0:
-                    return new Fragment2();
+                    PartidasFragment partidasFragment = new PartidasFragment();
+                    return partidasFragment;
                 case 1:
-                    getSupportActionBar().setTitle(getPageTitle(1));
-                    return PlaceholderFragment.newInstance(position+1);
+
+                    PartidasFragment2 partidasFragment2 = new PartidasFragment2();
+                    return partidasFragment2;
+                case 2:
+
+                    PartidasFragment3 partidasFragment3 = new PartidasFragment3();
+                    return partidasFragment3;
+
             }
+
             return null;
+
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 2;
+            return 3;
         }
 
         @Nullable
