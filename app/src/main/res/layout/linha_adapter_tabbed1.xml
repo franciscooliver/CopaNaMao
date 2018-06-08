@@ -16,6 +16,7 @@
         android:paddingTop="5dp"
         android:paddingLeft="10dp"
         android:paddingBottom="5dp"
+        android:fontFamily="@font/nanum_gothic"
         android:textColor="@color/white"
         android:background="@color/layout_top_cardView"/>
 
@@ -105,6 +106,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Seleção 1"
+                android:fontFamily="@font/nanum_gothic"
                 android:textColor="@color/text_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -122,6 +124,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Selecao 2"
+                android:fontFamily="@font/nanum_gothic"
                 android:textColor="@color/text_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -169,6 +172,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Selecao 3"
+                android:fontFamily="@font/nanum_gothic"
                 android:textColor="@color/text_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -186,6 +190,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Selecao 4"
+                android:fontFamily="@font/nanum_gothic"
                 android:textColor="@color/text_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -212,6 +217,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Data 2"
+                    android:fontFamily="@font/nanum_gothic"
                     android:textColor="@color/text_color" />
 
                 <TextView
@@ -219,6 +225,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Hora 2"
+                    android:fontFamily="@font/nanum_gothic"
                     android:textColor="@color/text_color" />
             </LinearLayout>
 

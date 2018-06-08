@@ -22,6 +22,7 @@ import com.example.fran.copanamo.entidades.Fase1Dados;
 import com.example.fran.copanamo.entidades.Grupo;
 import com.example.fran.copanamo.service.RetrofitService;
 import com.example.fran.copanamo.service.RetrofitServiceGenerator;
+import com.example.fran.copanamo.utils.Preferencias;
 
 
 import java.util.ArrayList;
@@ -32,20 +33,43 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class PartidasFragment extends Fragment {
+    Preferencias pref;
     View viewRoot;
     List<Fase1Dados> partidas;
     private RecyclerView recycler_fragment1;
     int cont = 0;
+
+    AlertDialog alertDialog;
+    boolean viewInfo;
 
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-         viewRoot = inflater.inflate(R.layout.fragment_partidas_tabbed1, container, false);
+        viewRoot = inflater.inflate(R.layout.fragment_partidas_tabbed1, container, false);
         partidas = new ArrayList<>();
         recycler_fragment1 = viewRoot.findViewById(R.id.rv_frag1);
         recycler_fragment1.setLayoutManager(new LinearLayoutManager(getActivity()));
+        pref = new Preferencias(getContext());
+
+        if(!pref.getStatusInfo()){
+            View view = getLayoutInflater().inflate(R.layout.layout_info, null);
+            AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+            builder.setMessage("Deslize o dedo para esquerda para ver todas as telas");
+            builder.setCancelable(false);
+            builder.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    pref.salvaStatusInfo(true);
+                    alertDialog.dismiss();
+                }
+            });
+            builder.setView(view);
+
+            alertDialog = builder.create();
+            alertDialog.show();
+        }
 
         returnData();
 
@@ -69,7 +93,25 @@ public class PartidasFragment extends Fragment {
                      adapter1.notifyDataSetChanged();
 
                 }else{
-                    Toast.makeText(getContext(), "Erro ao retornar dados", Toast.LENGTH_SHORT).show();
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                    builder.setMessage("Erro no carregamento\n"+
+                            "Toque em ok para recarregar");
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            returnData();
+                            cont+=1;
+                            Toast.makeText(getContext(), "Cont"+cont, Toast.LENGTH_SHORT).show();
+                            if(cont >= 3){
+
+                                Intent intent = new Intent(getContext(), MainActivity.class);
+                                startActivity( intent );
+
+                            }
+                        }
+                    });
+                    builder.setCancelable(false);
+                    builder.show();
 
                 }
             }

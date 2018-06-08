@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar( toolbar );
         preferencias = new Preferencias(this);
 
-        if(preferencias.recuperaNomeUsuario() ==""  || preferencias.recuperaNomeUsuario() == null){
+        if(preferencias.recuperaNomeUsuario() == ""  || preferencias.recuperaNomeUsuario() == null){
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             View view = getLayoutInflater().inflate(R.layout.dialog_nome_user, null);
             final EditText nome = view.findViewById(R.id.edt_nome);

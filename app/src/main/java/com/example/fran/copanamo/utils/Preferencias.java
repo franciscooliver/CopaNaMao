@@ -8,6 +8,7 @@ public class Preferencias {
     private Context contexto;
     private SharedPreferences preferences;
     public final String NOME_ARQUIVO = "copa_na_mao.pref";
+    public final String VIU_INFO = "visualizou_info";
     public final int MODE = 0;
     private SharedPreferences.Editor editor;
 
@@ -29,6 +30,15 @@ public class Preferencias {
     public String recuperaNomeUsuario(){
         String nome = preferences.getString(NOME_USER,null);
         return nome;
+    }
+
+    public void salvaStatusInfo(boolean status){
+       editor.putBoolean(VIU_INFO, status);
+        editor.commit();
+    }
+
+    public boolean getStatusInfo(){
+        return preferences.getBoolean(VIU_INFO, false);
     }
 
 }
