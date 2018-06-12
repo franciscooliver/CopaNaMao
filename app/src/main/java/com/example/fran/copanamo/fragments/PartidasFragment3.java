@@ -65,7 +65,7 @@ public class PartidasFragment3 extends Fragment {
                     partidas3 = response.body();
                     PartidaRecyclerAdapter3 partidaRecyclerAdapter3 = new PartidaRecyclerAdapter3(partidas3);
                     recycler_fragment3.setAdapter(partidaRecyclerAdapter3);
-                    Toast.makeText(getContext(), "Sucesso ao retornar dados", Toast.LENGTH_SHORT).show();
+
                 }else {
                     final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                     builder.setMessage("Erro no carregamento\n"+

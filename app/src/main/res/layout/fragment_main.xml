@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EEEEEE"
     android:orientation="vertical"
-    >
+    app:ignore="NamespaceTypo">
 
     <com.github.florent37.diagonallayout.DiagonalLayout
         android:id="@+id/diagonalLayout"
@@ -28,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Teste Fragment Inicial"
+            android:text="Copa do mundo da Rússia"
             android:textColor="@android:color/white"
             android:layout_gravity="top|left"
             android:fontFamily="sans-serif-light"
@@ -36,6 +37,8 @@
             android:layout_marginTop="70dp"
             android:textSize="25sp"
             />
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -48,123 +51,59 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ACTOR"
+                android:text="Confira abaixo os jogos de hoje"
                 android:textColor="@android:color/white"
                 android:layout_gravity="top|left"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-condensed"
-                android:textSize="14sp"
+                android:textSize="15sp"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PRODUCER"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:layout_gravity="top|left"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_marginLeft="10dp"
-                android:textSize="14sp"
-                />
+
+
         </LinearLayout>
 
     </com.github.florent37.diagonallayout.DiagonalLayout>
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:text="JOGOS DE HOJE"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não temos jogos para hoje"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanum_gothic"
+        android:textColor="@color/primary_dark"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_marginTop="50dp"
-        android:weightSum="4"
-        >
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        app:fillColor="#4872a9"
+        app:indicatorVisibility="visible"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="5000"
+        app:strokeColor="#efeeee"
+        app:strokeWidth="1dp"
+        app:indicatorMarginVertical="2dp"/>
 
-        <View
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/diagonalLayout"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Followers"
-                android:textColor="#3E3E3E"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_marginLeft="10dp"
-                android:textSize="14sp"
-                android:id="@+id/textView"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3.5K"
-                android:textStyle="bold"
-                android:textColor="#3E3E3E"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_marginLeft="10dp"
-                android:textSize="14sp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/diagonalLayout"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Following"
-                android:textColor="#3E3E3E"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_marginLeft="10dp"
-                android:textSize="14sp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1.9K"
-                android:textStyle="bold"
-                android:textColor="#3E3E3E"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_marginLeft="10dp"
-                android:textSize="14sp"/>
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textColor="#717171"
-            android:text="@string/diagonallayout_description"/>
-
-    </ScrollView>
 
 
     <android.support.v7.widget.Toolbar
@@ -173,5 +112,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        android:layout_gravity="bottom">
+
+    </com.google.android.gms.ads.AdView>
+
 
 </LinearLayout>

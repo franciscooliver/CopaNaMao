@@ -80,7 +80,7 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.info) {
-
+            Toast.makeText(ActivityPartidasTabbed.this, "Em breve...", Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);

@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.fran.copanamo.R;
-import com.example.fran.copanamo.entidades.Fase2Dados;
 import com.example.fran.copanamo.entidades.Fase3Dados;
 import com.squareup.picasso.Picasso;
 
@@ -39,14 +38,14 @@ public class PartidaRecyclerAdapter3 extends RecyclerView.Adapter<PartidaRecycle
         public ViewHolder(final View itemView) {
             super(itemView);
 
-            img_sel1  = itemView.findViewById(R.id.img1);
-            img_sel2 = itemView.findViewById(R.id.img2);
-            img_sel3 =itemView.findViewById(R.id.img3);
-            img_sel4 =itemView.findViewById(R.id.img4);
-            nome_sel1 = itemView.findViewById(R.id.sel1);
-            nome_sel2 = itemView.findViewById(R.id.sel2);
-            nome_sel3 = itemView.findViewById(R.id.sel3);
-            nome_sel4 = itemView.findViewById(R.id.sel4);
+            img_sel1  = itemView.findViewById(R.id.img1_result);
+            img_sel2 = itemView.findViewById(R.id.img2_resul);
+            img_sel3 =itemView.findViewById(R.id.img3_result);
+            img_sel4 =itemView.findViewById(R.id.img4_result);
+            nome_sel1 = itemView.findViewById(R.id.sel1_result);
+            nome_sel2 = itemView.findViewById(R.id.sel2_result);
+            nome_sel3 = itemView.findViewById(R.id.sel3_result);
+            nome_sel4 = itemView.findViewById(R.id.sel4_result);
             data_partida_1 = itemView.findViewById(R.id.data1);
             data_partida_2 = itemView.findViewById(R.id.data2);
             hora_part1 = itemView.findViewById(R.id.hora1);
@@ -59,7 +58,7 @@ public class PartidaRecyclerAdapter3 extends RecyclerView.Adapter<PartidaRecycle
     @NonNull
     @Override
     public PartidaRecyclerAdapter3.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.linha_adapter_tabbed3, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.linha_adapter_partidas_tabbed3, parent, false);
         return new ViewHolder(v);
     }
 

@@ -4,7 +4,9 @@ import com.example.fran.copanamo.entidades.Fase1Dados;
 import com.example.fran.copanamo.entidades.Fase2Dados;
 import com.example.fran.copanamo.entidades.Fase3Dados;
 import com.example.fran.copanamo.entidades.Grupo;
+import com.example.fran.copanamo.entidades.JogoDoDia;
 import com.example.fran.copanamo.entidades.Noticia;
+import com.example.fran.copanamo.entidades.Resultado;
 
 import java.util.List;
 
@@ -33,5 +35,17 @@ public interface RetrofitService {
 
     @GET("dadosfases3get")
     Call<List<Fase3Dados>> getDadosFases3();
+
+    @GET("dadospartidasdiarias")
+    Call<List<JogoDoDia>> getPartidasDoDia();
+
+    @GET("placarfaseone")
+    Call<List<Resultado>> getPlacarOne();
+
+    @GET("placarfasetwo")
+    Call<List<Resultado>> getPlacarTwo();
+
+    @GET("placarfasetree")
+    Call<List<Resultado>> getPlacarTree();
 
 }

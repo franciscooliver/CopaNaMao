@@ -14,14 +14,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+
 import com.example.fran.copanamo.fragments.GruposFragment;
 import com.example.fran.copanamo.fragments.MainFragment;
 import com.example.fran.copanamo.fragments.NoticiasFragment;
 import com.example.fran.copanamo.fragments.ResultadosFragment;
 import com.example.fran.copanamo.utils.Preferencias;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -34,7 +40,6 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-
 public class MainActivity extends AppCompatActivity {
     private static final long ID_ND_FOOTER = 500;
     private static final long ID_ND_HOME = 501;
@@ -42,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
     private static final long ID_ND_PARTIDAS = 503;
     private static final long ID_ND_GRUPO = 504;
     private static final long ID_ND_NOTICIAS = 505;
+
+
 
     FragmentManager fm;
 
@@ -105,6 +112,19 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        switch (id){
+            case R.id.sair:
+                finish();
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     private boolean validaCampoNome(EditText edt_nome, String nome){
          boolean result = true;
 
@@ -120,22 +140,22 @@ public class MainActivity extends AppCompatActivity {
         final PrimaryDrawerItem itemHome = new PrimaryDrawerItem()
                 .withName("Home")
                 .withIdentifier(ID_ND_HOME)
-                .withIcon(GoogleMaterial.Icon.gmd_person);
+                .withIcon(GoogleMaterial.Icon.gmd_home);
 
         final PrimaryDrawerItem itemPartidas = new PrimaryDrawerItem()
                 .withName("Partidas")
                 .withIdentifier(ID_ND_PARTIDAS)
-                .withIcon(GoogleMaterial.Icon.gmd_person);
+                .withIcon(R.drawable.bool_footbal);
 
         final PrimaryDrawerItem itemGrupos = new PrimaryDrawerItem()
-                .withName("Grupos")
+                .withName("Grupos/Classificação")
                 .withIdentifier(ID_ND_GRUPO)
-                .withIcon(GoogleMaterial.Icon.gmd_person);
+                .withIcon(GoogleMaterial.Icon.gmd_view_list);
 
         final PrimaryDrawerItem itemResultados = new PrimaryDrawerItem()
                 .withName("Resultado de jogos")
                 .withIdentifier(ID_ND_RESULTADOS)
-                .withIcon(FontAwesome.Icon.faw_th_list)
+                .withIcon(R.drawable.results)
                 .withBadgeStyle(new BadgeStyle()
                         .withTextColor(Color.WHITE)
                         .withColorRes(R.color.md_orange_700));
@@ -143,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         final PrimaryDrawerItem itemNoticias = new PrimaryDrawerItem()
                 .withName("Últimas notícias da copa")
                 .withIdentifier(ID_ND_NOTICIAS)
-                .withIcon(GoogleMaterial.Icon.gmd_shop_two)
+                .withIcon(GoogleMaterial.Icon.gmd_notifications)
                 .withBadgeStyle(new BadgeStyle()
                         .withTextColor(Color.WHITE)
                         .withColorRes(R.color.md_orange_700));
@@ -183,6 +203,8 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .build();
 
+
+        //footer do drawer
         drawer.addStickyFooterItem(new PrimaryDrawerItem()
                 .withName("Sobre o App")
                 .withIcon(GoogleMaterial.Icon.gmd_info)
@@ -218,9 +240,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity( intent );
                 break;
             case (int) ID_ND_RESULTADOS:
-                getSupportActionBar().setTitle("Resultados");
-                ft.replace(R.id.fragment_content, new ResultadosFragment());
-                ft.commit();
+                Intent i = new Intent(MainActivity.this, ActivityResultadosTabbed.class);
+                startActivity(i);
                 break;
             case (int) ID_ND_NOTICIAS:
                 getSupportActionBar().setTitle("Últimas notícias da copa");

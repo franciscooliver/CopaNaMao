@@ -1,6 +1,7 @@
 package com.example.fran.copanamo.fragments;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -41,7 +42,7 @@ public class PartidasFragment extends Fragment {
 
     AlertDialog alertDialog;
     boolean viewInfo;
-
+    ProgressDialog progressDialog;
 
 
     @Nullable
@@ -73,6 +74,10 @@ public class PartidasFragment extends Fragment {
 
         returnData();
 
+        progressDialog = new ProgressDialog(getContext());
+        progressDialog.setCancelable(false);
+        progressDialog.show();
+
         return viewRoot;
     }
 
@@ -90,7 +95,9 @@ public class PartidasFragment extends Fragment {
 
                     PartidaRecyclerAdapter1 adapter1 = new PartidaRecyclerAdapter1(partidas);
                     recycler_fragment1.setAdapter(adapter1);
-                     adapter1.notifyDataSetChanged();
+
+                    progressDialog.dismiss();
+                    adapter1.notifyDataSetChanged();
 
                 }else{
                     final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());

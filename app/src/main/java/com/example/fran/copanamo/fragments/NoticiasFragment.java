@@ -43,7 +43,7 @@ public class NoticiasFragment extends Fragment {
          rvNoticias.setLayoutManager(new LinearLayoutManager(getContext()));
 
         progressDialog = new ProgressDialog(getContext());
-        progressDialog.setTitle("Buscando notícisa...");
+        progressDialog.setTitle("Buscando notícias...");
         progressDialog.setCancelable(false);
         progressDialog.show();
 

@@ -7,19 +7,19 @@
     android:layout_marginTop="5dp"
     android:layout_gravity="center_horizontal">
 
-
     <TextView
         android:id="@+id/titutlo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rodada 2 de 3"
+        android:text="Rodada 1 de 3"
         android:textSize="18dp"
-        android:fontFamily="@font/nanum_gothic"
         android:paddingTop="5dp"
         android:paddingLeft="10dp"
         android:paddingBottom="5dp"
+        android:fontFamily="@font/nanum_gothic"
         android:textColor="@color/white"
         android:background="@color/layout_top_cardView"/>
+
 
     <android.support.v7.widget.CardView
         android:id="@+id/card_view"
@@ -37,7 +37,7 @@
 
 
             <ImageView
-                android:id="@+id/img1"
+                android:id="@+id/img1_result"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="4dp"
@@ -53,7 +53,7 @@
                 app:srcCompat="@drawable/russia" />
 
             <ImageView
-                android:id="@+id/img3"
+                android:id="@+id/img3_result"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="4dp"
@@ -64,7 +64,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/img1"
+                app:layout_constraintTop_toBottomOf="@+id/img1_result"
                 app:layout_constraintVertical_bias="1.0"
                 app:srcCompat="@drawable/arabia_saudita" />
 
@@ -78,7 +78,7 @@
                 android:layout_marginBottom="8dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/img2"
+                app:layout_constraintEnd_toStartOf="@+id/img2_resul"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -87,7 +87,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Data 1"
-                    android:fontFamily="@font/nanum_gothic"
                     android:textColor="@color/text_color" />
 
                 <TextView
@@ -95,12 +94,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Hora 1"
-                    android:fontFamily="@font/nanum_gothic"
                     android:textColor="@color/text_color" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/sel1"
+                android:id="@+id/sel1_result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -113,12 +111,12 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/img1"
+                app:layout_constraintStart_toEndOf="@+id/img1_result"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.112" />
 
             <TextView
-                android:id="@+id/sel3"
+                android:id="@+id/sel3_result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -131,12 +129,12 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/img3"
+                app:layout_constraintStart_toEndOf="@+id/img3_result"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.843" />
 
             <ImageView
-                android:id="@+id/img2"
+                android:id="@+id/img2_resul"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="50dp"
@@ -151,7 +149,7 @@
                 app:srcCompat="@drawable/egito" />
 
             <ImageView
-                android:id="@+id/img4"
+                android:id="@+id/img4_result"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="50dp"
@@ -166,7 +164,7 @@
                 app:srcCompat="@drawable/uruguai" />
 
             <TextView
-                android:id="@+id/sel2"
+                android:id="@+id/sel2_result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -179,12 +177,12 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/img2"
+                app:layout_constraintStart_toEndOf="@+id/img2_resul"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.112" />
 
             <TextView
-                android:id="@+id/sel4"
+                android:id="@+id/sel4_result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -197,7 +195,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/img4"
+                app:layout_constraintStart_toEndOf="@+id/img4_result"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.887" />
 
@@ -241,7 +239,7 @@
                 android:layout_marginBottom="8dp"
                 android:background="@color/colorSecondaryTextDefaultMaterialLight"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/img4"
+                app:layout_constraintEnd_toStartOf="@+id/img4_result"
                 app:layout_constraintStart_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="parent" />
 

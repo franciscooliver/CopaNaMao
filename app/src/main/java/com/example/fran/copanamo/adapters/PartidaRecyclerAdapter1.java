@@ -1,21 +1,15 @@
 package com.example.fran.copanamo.adapters;
 
 import android.support.annotation.NonNull;
-import android.support.v7.util.DiffUtil;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.fran.copanamo.R;
 import com.example.fran.copanamo.entidades.Fase1Dados;
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -45,14 +39,14 @@ public class PartidaRecyclerAdapter1 extends RecyclerView.Adapter<PartidaRecycle
         public ViewHolder(final View itemView) {
             super(itemView);
 
-            img_sel1  = itemView.findViewById(R.id.img1);
-            img_sel2 = itemView.findViewById(R.id.img2);
-            img_sel3 =itemView.findViewById(R.id.img3);
-            img_sel4 =itemView.findViewById(R.id.img4);
-            nome_sel1 = itemView.findViewById(R.id.sel1);
-            nome_sel2 = itemView.findViewById(R.id.sel2);
-            nome_sel3 = itemView.findViewById(R.id.sel3);
-            nome_sel4 = itemView.findViewById(R.id.sel4);
+            img_sel1  = itemView.findViewById(R.id.img1_result);
+            img_sel2 = itemView.findViewById(R.id.img2_resul);
+            img_sel3 =itemView.findViewById(R.id.img3_result);
+            img_sel4 =itemView.findViewById(R.id.img4_result);
+            nome_sel1 = itemView.findViewById(R.id.sel1_result);
+            nome_sel2 = itemView.findViewById(R.id.sel2_result);
+            nome_sel3 = itemView.findViewById(R.id.sel3_result);
+            nome_sel4 = itemView.findViewById(R.id.sel4_result);
             data_partida_1 = itemView.findViewById(R.id.data1);
             data_partida_2 = itemView.findViewById(R.id.data2);
             hora_part1 = itemView.findViewById(R.id.hora1);
@@ -65,7 +59,7 @@ public class PartidaRecyclerAdapter1 extends RecyclerView.Adapter<PartidaRecycle
     @NonNull
     @Override
     public PartidaRecyclerAdapter1.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.linha_adapter_tabbed1, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.linha_adapter_partidas_tabbed1, parent, false);
         return new ViewHolder(v);
     }
 

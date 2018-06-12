@@ -46,7 +46,6 @@ public class PartidasFragment2 extends Fragment {
         recycler_fragment2.setLayoutManager(new LinearLayoutManager(getActivity()));
 
 
-
         retornaDadosFase2();
 
         return viewRoot;
@@ -64,7 +63,6 @@ public class PartidasFragment2 extends Fragment {
                     partidas2 = response.body();
                     PartidaRecyclerAdapter2 partidaRecyclerAdapter2 = new PartidaRecyclerAdapter2(partidas2);
                     recycler_fragment2.setAdapter(partidaRecyclerAdapter2);
-                    Toast.makeText(getContext(), "Sucesso ao retornar dados", Toast.LENGTH_SHORT).show();
                 }else {
                     final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                     builder.setMessage("Erro no carregamento\n"+
@@ -94,5 +92,7 @@ public class PartidasFragment2 extends Fragment {
             }
         });
     }
+
+
 
 }
