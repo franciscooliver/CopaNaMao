@@ -163,7 +163,7 @@
                 app:layout_constraintHorizontal_bias="0.38"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.18" />
+                app:layout_constraintVertical_bias="0.19" />
 
             <TextView
                 android:id="@+id/placar2"
@@ -179,7 +179,7 @@
                 app:layout_constraintHorizontal_bias="0.614"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.18" />
+                app:layout_constraintVertical_bias="0.19" />
 
             <TextView
                 android:id="@+id/placar4"
@@ -195,7 +195,7 @@
                 app:layout_constraintHorizontal_bias="0.614"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.88" />
+                app:layout_constraintVertical_bias="0.85" />
 
             <TextView
                 android:id="@+id/placar3"
@@ -211,7 +211,7 @@
                 app:layout_constraintHorizontal_bias="0.38"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.88" />
+                app:layout_constraintVertical_bias="0.85" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -226,7 +226,7 @@
                 app:layout_constraintHorizontal_bias="0.49"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.16000003"
+                app:layout_constraintVertical_bias="0.17000002"
                 app:srcCompat="@drawable/bool_footbal" />
 
             <ImageView
@@ -242,7 +242,7 @@
                 app:layout_constraintHorizontal_bias="0.49"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.9"
+                app:layout_constraintVertical_bias="0.86"
                 app:srcCompat="@drawable/bool_footbal" />
 
             <View

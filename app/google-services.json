@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "521778698602",
+    "firebase_url": "https://copanamao-a2580.firebaseio.com",
+    "project_id": "copanamao-a2580",
+    "storage_bucket": "copanamao-a2580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521778698602:android:bed19fe783b84763",
+        "android_client_info": {
+          "package_name": "com.app.fran.copanamao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521778698602-mh9noitjlh063kr8pdu3nh1ssnf35uc9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "521778698602-mh9noitjlh063kr8pdu3nh1ssnf35uc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4DtDqZAjuZVwdNODhANT91tTaztgYD5o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

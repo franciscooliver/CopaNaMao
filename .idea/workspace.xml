@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="CMakeSettings">
@@ -16,72 +16,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="634034e5-9cad-48a7-8476-6a0a7b558a77" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/FaseFinalTabbed.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/OitavasRecyclerAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Estadio.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/FragmentOitavas.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/brasao.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/oitavas_final_fragment.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_15_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_15_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_15_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_15_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_16_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/google-services.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/VideosActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/RecyclerVideoAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Video.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/loading_thumbnail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/no_thumbnail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/if_youtube_43189.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_videos.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_list_item.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/fran/copanamo/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/app/fran/copanamo/ExampleInstrumentedTest.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/app/fran/copanamo/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/app/fran/copanamao/ExampleInstrumentedTest.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/ActivityPartidasTabbed.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityPartidasTabbed.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/ActivityResultadosTabbed.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityResultadosTabbed.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/CadastroActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/CadastroActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/LoginActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/SplashScreen.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/GrupoRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/GrupoRecyclerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/NoticiaRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/NoticiaRecyclerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/PartidaRecyclerAdapter1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter1.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/PartidaRecyclerAdapter2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter2.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/PartidaRecyclerAdapter3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter3.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter3.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Fase1Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase1Dados.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Fase2Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase2Dados.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Fase3Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase3Dados.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Grupo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Grupo.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/JogoDoDia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/JogoDoDia.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Noticia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Noticia.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Resultado.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Resultado.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/GruposFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/GruposFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/MainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/MainFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/NoticiasFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/NoticiasFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment2.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment3.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment2.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment3.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/service/RetrofitService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitService.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/service/RetrofitServiceGenerator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitServiceGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/utils/Constantes.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/Constantes.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/utils/DepthPageTransformer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/DepthPageTransformer.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/utils/Preferencias.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/Preferencias.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/utils/TimeService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/TimeService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityPartidasTabbed.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/ActivityPartidasTabbed.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityResultadosTabbed.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/ActivityResultadosTabbed.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/CadastroActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/CadastroActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/FaseFinalTabbed.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/FaseFinalTabbed.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/LoginActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/SplashScreen.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/GrupoRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/GrupoRecyclerAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/NoticiaRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/NoticiaRecyclerAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/OitavasRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/OitavasRecyclerAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/PartidaRecyclerAdapter1.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/PartidaRecyclerAdapter2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/PartidaRecyclerAdapter3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/PartidaRecyclerAdapter3.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/ResultadoRecyclerAdapter1.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/ResultadoRecyclerAdapter2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/ResultadoRecyclerAdapter3.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Estadio.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Estadio.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase1Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Fase1Dados.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase2Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Fase2Dados.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Fase3Dados.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Fase3Dados.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinal.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/FaseFinal.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Grupo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Grupo.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/JogoDoDia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/JogoDoDia.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Noticia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Noticia.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Resultado.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Resultado.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/FragmentOitavas.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/FragmentOitavas.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/GruposFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/GruposFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/MainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/MainFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/NoticiasFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/NoticiasFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/PartidasFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/PartidasFragment2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/PartidasFragment3.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/ResultadosFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/ResultadosFragment2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/ResultadosFragment3.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitServiceGenerator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitServiceGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/Constantes.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/Constantes.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/DepthPageTransformer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/DepthPageTransformer.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/Preferencias.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/Preferencias.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/TimeService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/TimeService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_partidas_tabbed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_partidas_tabbed.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultados_tabbed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultados_tabbed.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/linha_noticia.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_noticia.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_partidas.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_partidas.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/fran/copanamo/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/fran/copanamo/ExampleUnitTest.java" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/fran/copanamo/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/fran/copanamao/ExampleUnitTest.java" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/espresso/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,46 +151,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FragmentOitavas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/FragmentOitavas.java">
+      <file leaf-file-name="MainFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/MainFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="56" column="58" lean-forward="true" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+            <state relative-caret-position="102">
+              <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4062#5132#0" expanded="true" />
+                <element signature="e#5131#5132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetrofitService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OitavasRecyclerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/OitavasRecyclerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linha_oitavas.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml">
-          <provider editor-type-id="android-designer2">
+      <file leaf-file-name="linha_resultados_tabbed3.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -168,6 +206,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters</dir>
+    </dirStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$USER_HOME$/keys" />
@@ -279,6 +325,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1007,6 +1057,10 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'CopaNaMao'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -1160,6 +1214,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="reportSourceSetTransformTestDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1799,6 +1857,10 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="properties" />
@@ -1822,6 +1884,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha06/2b35b13df29d258ee9b5a606739917f8dc509cb2/gradle-3.2.0-alpha06-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha06/871532962b274e9470718e7234654c894edca71b/gradle-3.2.0-alpha06.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.0/6f79e6f6b856aa499eb2a35104a65efb500144c7/google-services-4.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.0/625ec4a9865e9e74fa5a12d7b0aea3652e904c6c/google-services-4.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha06/bf59d98b9c358c20baf1c27911d3ad277cc9e5fe/gradle-core-3.2.0-alpha06-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha06/f0df427b9f88c553d5d3bd80dd39fe5cbf1666e3/gradle-core-3.2.0-alpha06.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha04/f089ca28affa96df2d8ec33a43f59e29d3f5377c/bundletool-0.1.0-alpha04.jar" />
@@ -1982,6 +2046,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha06/2b35b13df29d258ee9b5a606739917f8dc509cb2/gradle-3.2.0-alpha06-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha06/871532962b274e9470718e7234654c894edca71b/gradle-3.2.0-alpha06.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.0/6f79e6f6b856aa499eb2a35104a65efb500144c7/google-services-4.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.0/625ec4a9865e9e74fa5a12d7b0aea3652e904c6c/google-services-4.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha06/bf59d98b9c358c20baf1c27911d3ad277cc9e5fe/gradle-core-3.2.0-alpha06-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha06/f0df427b9f88c553d5d3bd80dd39fe5cbf1666e3/gradle-core-3.2.0-alpha06.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha04/f089ca28affa96df2d8ec33a43f59e29d3f5377c/bundletool-0.1.0-alpha04.jar" />
@@ -2304,57 +2370,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/JogoDoDia2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/JogoDoDia.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/MainFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados_tabbed2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados_tabbed3.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resultados_tabbed.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/service/RetrofitService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/service/RetrofitServiceGenerator.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/NoticiasFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/ActivityPartidasTabbed.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_partidas.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/utils/TimeService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/ActivityResultadosTabbed.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/ResultadosFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_adapter_partidas_tabbed1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/entidades/Resultado.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/fragments/PartidasFragment3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fran/copanamo/adapters/ResultadoRecyclerAdapter3.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Estadio.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinalOitavas.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/oitavas_final.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/oitavas_final_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/FaseFinalTabbed.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinal.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/OitavasRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/FragmentOitavas.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitServiceGenerator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/FaseFinalTabbed.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/FaseFinalTabbed.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/FragmentOitavas.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/FaseFinal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/OitavasRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_oitavas.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Noticia.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_grupo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/GrupoRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Grupo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/NoticiasFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_noticia.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/VideosActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/VideoListDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/DeveloperKey.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/VideoEntry.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Video.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/Constantes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_videos.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/VideosActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitServiceGenerator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/NoticiaRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/RecyclerVideoAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/video_list_item.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/google-services.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/MainFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml" />
       </list>
     </option>
   </component>
@@ -2379,7 +2445,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2391,6 +2456,12 @@
               <item name="CopaNaMao" type="b2602c69:ProjectViewProjectNode" />
               <item name="CopaNaMao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CopaNaMao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CopaNaMao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CopaNaMao" type="b2602c69:ProjectViewProjectNode" />
@@ -2435,8 +2506,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2452,19 +2521,6 @@
             <path>
               <item name="CopaNaMao" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="copanamo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CopaNaMao" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="copanamo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CopaNaMao" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
@@ -2475,24 +2531,36 @@
             </path>
             <path>
               <item name="CopaNaMao" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="CopaNaMao" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CopaNaMao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="CopaNaMao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.app.fran.copanamao" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/build/outputs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/YoutubeVideo-master" />
     <property name="device.picker.selection" value="0013046983" />
     <property name="android.profiler.active" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
@@ -2505,19 +2573,22 @@
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.app.fran.copanamao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.fran.copanamao.utils" />
+      <recent name="com.app.fran.copanamao.activitys" />
       <recent name="com.app.fran.copanamo.adapters" />
       <recent name="com.app.fran.copanamo.fragments" />
       <recent name="com.app.fran.copanamo" />
-      <recent name="com.example.fran.copanamo.adapters" />
-      <recent name="com.example.fran.copanamo.fragments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2688,39 +2759,39 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="683" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36136365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22954546" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4844517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42062193" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31587562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66448444" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2731,31 +2802,31 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6415712" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497545" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31587562" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3037879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25227273" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23106061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2773,339 +2844,72 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados_tabbed1.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados_tabbed2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_resultados_tabbed3.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_partidas_tabbed2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/FragmentOitavas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/MainFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/FaseFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="124" column="5" lean-forward="false" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="389">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitServiceGenerator.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/OitavasRecyclerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_activity_partidas.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityPartidasTabbed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/utils/TimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_adapter_partidas_tabbed1.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="219" column="58" lean-forward="true" selection-start-line="219" selection-start-column="58" selection-end-line="219" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="250" column="58" lean-forward="false" selection-start-line="250" selection-start-column="58" selection-end-line="250" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="253" column="59" lean-forward="true" selection-start-line="253" selection-start-column="59" selection-end-line="253" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Resultado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/PartidasFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/ResultadosFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="217" column="12" lean-forward="false" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/GrupoRecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding>
-            <element signature="e#434#452#0" expanded="false" />
-            <element signature="e#1362#1402#0" expanded="false" />
-            <element signature="e#1579#1621#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="107" column="41" lean-forward="true" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/ResultadoRecyclerAdapter3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="88" column="45" lean-forward="false" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/Estadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="62" column="55" lean-forward="false" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_info_app.xml">
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/ResultadoRecyclerAdapter3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="1224">
+          <caret line="88" column="45" lean-forward="false" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinalOitavas.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grupo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_partidas_tabbed.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/NoticiasFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Noticia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="83" column="45" lean-forward="false" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="469">
+          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_noticias.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_noticia.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3116,51 +2920,136 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Grupo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="269" column="91" lean-forward="true" selection-start-line="269" selection-start-column="91" selection-end-line="269" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/ActivityResultadosTabbed.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/NoticiasFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="663">
+          <caret line="66" column="105" lean-forward="false" selection-start-line="66" selection-start-column="105" selection-end-line="66" selection-end-column="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/FaseFinalTabbed.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/GrupoRecyclerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        <state relative-caret-position="-242">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/ActivityResultadosTabbed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/CadastroActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/FaseFinalTabbed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/VideoListDemoActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="28" column="97" lean-forward="false" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/ActivityPartidasTabbed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/DeveloperKey.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/VideoEntry.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="67" lean-forward="false" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fase_final.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/entidades/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/utils/Constantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="91" lean-forward="true" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/GruposFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="59" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/PartidaRecyclerAdapter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="74" column="39" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_noticia.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/NoticiaRecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3169,58 +3058,191 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/entidades/FaseFinal.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_noticias.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding>
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/GruposFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_grupo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_grupo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1466">
+          <caret line="434" column="43" lean-forward="false" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/RecyclerVideoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="90" lean-forward="false" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/video_list_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/VideosActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="59" column="53" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="59" selection-end-column="53" />
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_videos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/activitys/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="180" column="60" lean-forward="false" selection-start-line="180" selection-start-column="60" selection-end-line="180" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/adapters/NoticiaRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/service/RetrofitServiceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/adapters/OitavasRecyclerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="1972">
+          <caret line="116" column="19" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/fragments/FragmentOitavas.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="56" column="58" lean-forward="true" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed1.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed2.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamao/fragments/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4062#5132#0" expanded="true" />
+            <element signature="e#5131#5132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/fran/copanamo/service/RetrofitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/linha_resultados_tabbed3.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

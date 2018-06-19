@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.fran.copanamo">
+    package="com.app.fran.copanamao">
 
     <uses-permission android:name="android.permission.INTERNET" />
     //permission ads
@@ -14,11 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/MaterialDrawerTheme.TranslucentStatus">
         <activity
-            android:name=".MainActivity"
+            android:name=".activitys.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden"></activity>
         <activity
-            android:name=".SplashScreen"
+            android:name=".activitys.SplashScreen"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,26 +28,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastroActivity" />
+        <activity android:name=".activitys.LoginActivity" />
+        <activity android:name=".activitys.CadastroActivity" />
         <activity
-            android:name=".ActivityPartidasTabbed"
+            android:name=".activitys.ActivityPartidasTabbed"
             android:label="@string/title_activity_partidas_tabbed"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".ActivityResultadosTabbed"
+            android:name=".activitys.ActivityResultadosTabbed"
             android:label="@string/title_activity_resultados_tabbed"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-        <activity android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            />
-
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activitys.FaseFinalTabbed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name=".activitys.VideosActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
