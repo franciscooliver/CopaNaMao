@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.fran.copanamao">
+    package="com.app.fran.copanamo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     //permission ads
@@ -49,6 +49,16 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity android:name=".activitys.VideosActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service android:name=".service.MyFirebaseIdService">
+            <intent-filter><action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.MyFirebaseMesssaging">
+            <intent-filter><action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

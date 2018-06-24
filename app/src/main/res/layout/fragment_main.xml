@@ -63,8 +63,10 @@
         </LinearLayout>
 
 
-
     </com.github.florent37.diagonallayout.DiagonalLayout>
+
+
+
 
     <TextView
         android:id="@+id/textView7"
@@ -87,6 +89,13 @@
         android:fontFamily="@font/nanum_gothic"
         android:textColor="@color/primary_dark"
         android:layout_gravity="center_horizontal"/>
+    <ProgressBar
+        android:id="@+id/pb_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
 
     <com.synnapps.carouselview.CarouselView
         android:id="@+id/carouselView"
@@ -114,20 +123,7 @@
         android:layout_height="wrap_content"
         />
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:visibility="visible"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7136462619743657/6765305864"
-        android:layout_gravity="bottom"
-        >
 
-    </com.google.android.gms.ads.AdView>
 
 
 </LinearLayout>
