@@ -19,7 +19,6 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 
 public class VideosActivity extends AppCompatActivity {
@@ -32,7 +31,7 @@ public class VideosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_videos);
+        setContentView(R.layout.videos_fragment);
 
         videos = new ArrayList<>();
          recyclerView=( RecyclerView)findViewById(R.id.myRv_videos);

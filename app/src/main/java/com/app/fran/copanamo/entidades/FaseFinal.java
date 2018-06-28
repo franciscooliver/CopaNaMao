@@ -9,6 +9,8 @@ public class FaseFinal {
     private String url_img2;
     private String nome_sel1;
     private String nome_sel2;
+    private String placar1;
+    private String placar2;
     private String created_at;
     private String updated_at;
 
@@ -66,6 +68,22 @@ public class FaseFinal {
 
     public void setNome_sel2(String nome_sel2) {
         this.nome_sel2 = nome_sel2;
+    }
+
+    public String getPlacar1() {
+        return placar1;
+    }
+
+    public void setPlacar1(String placar1) {
+        this.placar1 = placar1;
+    }
+
+    public String getPlacar2() {
+        return placar2;
+    }
+
+    public void setPlacar2(String placar2) {
+        this.placar2 = placar2;
     }
 
     public String getCreated_at() {

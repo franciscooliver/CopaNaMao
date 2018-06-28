@@ -15,7 +15,6 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"/>
 
-
     <FrameLayout
         android:id="@+id/fragment_content"
         android:layout_marginTop="55dp"
@@ -30,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginVertical="0dp"
         android:layout_gravity="bottom"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"

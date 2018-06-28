@@ -44,7 +44,9 @@ public class ActivityResultadosTabbed extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_tabbed);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Resultados - fase de grupos");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
+        getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
+        getSupportActionBar().setTitle("Placares - fases finais");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -56,6 +58,23 @@ public class ActivityResultadosTabbed extends AppCompatActivity {
 
 
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) { //Botão adicional na ToolBar
+        switch (item.getItemId()) {
+            case android.R.id.home:  //ID do seu botão (gerado automaticamente pelo android, usando como está, deve funcionar
+                //config botão voltar
+                if(mViewPager.getCurrentItem() == 0){
+                    super.onBackPressed();
+                }else{
+                    mViewPager.setCurrentItem(mViewPager.getCurrentItem() - 1);
+                }
+                break;
+            default:break;
+        }
+        return true;
+    }
+
+
 
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {

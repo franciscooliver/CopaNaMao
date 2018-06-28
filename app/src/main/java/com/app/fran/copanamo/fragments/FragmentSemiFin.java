@@ -33,7 +33,7 @@ public class FragmentSemiFin extends Fragment {
     View viewRoot;
     private RecyclerView myRv;
     private List<FaseFinal> semiList;
-
+    ProgressBar progressBar;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -42,6 +42,9 @@ public class FragmentSemiFin extends Fragment {
         myRv.setLayoutManager(new LinearLayoutManager(getContext()));
 
 
+        progressBar  = viewRoot.findViewById(R.id.progress_sem);
+        progressBar.setVisibility(View.VISIBLE);
+        progressBar.setIndeterminate(true);
         semiList = new ArrayList<>();
         getSemiDados();
 
@@ -59,6 +62,7 @@ public class FragmentSemiFin extends Fragment {
                     semiList = response.body();
                     SemiFinalRecyclerAdapter adapter = new SemiFinalRecyclerAdapter(semiList);
                     myRv.setAdapter(adapter);
+                    progressBar.setVisibility(View.GONE);
 
                 }
             }

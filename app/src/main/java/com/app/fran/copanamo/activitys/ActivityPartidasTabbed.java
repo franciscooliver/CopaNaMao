@@ -43,6 +43,8 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_tabbed);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
+        getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
         getSupportActionBar().setTitle("Partidas - fase de grupos");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -64,6 +66,7 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -71,10 +74,24 @@ public class ActivityPartidasTabbed extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.info) {
+        switch (id){
+            //noinspection SimplifiableIfStatement
+            case  R.id.info:
             Toast.makeText(ActivityPartidasTabbed.this, "Em breve...", Toast.LENGTH_SHORT).show();
+            break;
+
+            case android.R.id.home:  //ID do seu botão (gerado automaticamente pelo android, usando como está, deve funcionar
+                //config botão voltar
+                if(mViewPager.getCurrentItem() == 0){
+                    super.onBackPressed();
+                }else{
+                    mViewPager.setCurrentItem(mViewPager.getCurrentItem() - 1);
+                }
+                break;
+            default:break;
         }
+
+
 
         return super.onOptionsItemSelected(item);
     }

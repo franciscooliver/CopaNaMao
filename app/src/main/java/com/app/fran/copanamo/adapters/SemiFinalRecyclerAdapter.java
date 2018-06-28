@@ -26,6 +26,7 @@ public class SemiFinalRecyclerAdapter extends RecyclerView.Adapter<SemiFinalRecy
        private TextView horario;
        private ImageView img_sel1,img_sel2;
        private TextView nome_sel1,nome_sel2;
+        private TextView placar1,placar2;
 
         public ViewHolder(final View itemView) {
             super(itemView);
@@ -35,6 +36,8 @@ public class SemiFinalRecyclerAdapter extends RecyclerView.Adapter<SemiFinalRecy
             img_sel2 = itemView.findViewById(R.id.img_sel2_oitavas);
             nome_sel1 = itemView.findViewById(R.id.nome_sel1);
             nome_sel2 = itemView.findViewById(R.id.nome_sel2);
+            placar1 = itemView.findViewById(R.id.placar1);
+            placar2 = itemView.findViewById(R.id.placar2);
 
         }
     }
@@ -63,6 +66,8 @@ public class SemiFinalRecyclerAdapter extends RecyclerView.Adapter<SemiFinalRecy
         linhaViewHolder.horario.setText(linha.getHorario());
         linhaViewHolder.nome_sel1.setText(linha.getNome_sel1());
         linhaViewHolder.nome_sel2.setText(linha.getNome_sel2());
+        linhaViewHolder.placar1.setText(linha.getPlacar1());
+        linhaViewHolder.placar2.setText(linha.getPlacar2());
 
 
     }

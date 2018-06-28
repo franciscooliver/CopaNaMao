@@ -14,6 +14,11 @@ public class Fase1Dados {
     private String data_partida2;
     private String horario_partida1;
     private String horario_partida2;
+    private String placar1;
+    private String placar2;
+    private String placar3;
+    private String placar4;
+
     String created_at;
     String updated_at;
 
@@ -112,6 +117,39 @@ public class Fase1Dados {
 
     public void setHorario_partida2(String horario_partida2) {
         this.horario_partida2 = horario_partida2;
+    }
+
+
+    public String getPlacar1() {
+        return placar1;
+    }
+
+    public void setPlacar1(String placar1) {
+        this.placar1 = placar1;
+    }
+
+    public String getPlacar2() {
+        return placar2;
+    }
+
+    public void setPlacar2(String placar2) {
+        this.placar2 = placar2;
+    }
+
+    public String getPlacar3() {
+        return placar3;
+    }
+
+    public void setPlacar3(String placar3) {
+        this.placar3 = placar3;
+    }
+
+    public String getPlacar4() {
+        return placar4;
+    }
+
+    public void setPlacar4(String placar4) {
+        this.placar4 = placar4;
     }
 
     public String getCreated_at() {

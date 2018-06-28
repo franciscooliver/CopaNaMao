@@ -139,7 +139,8 @@ public class MainFragment extends Fragment {
 
             @Override
             public void onFailure(Call<List<JogoDoDia>> call, Throwable t) {
-                Toast.makeText(getContext(), "Error", Toast.LENGTH_SHORT).show();
+                //
+                // Toast.makeText(getContext(), "Error", Toast.LENGTH_SHORT).show();
 
             }
 

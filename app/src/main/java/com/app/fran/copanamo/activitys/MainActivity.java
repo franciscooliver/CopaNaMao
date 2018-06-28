@@ -24,6 +24,7 @@ import com.app.fran.copanamo.R;
 import com.app.fran.copanamo.fragments.GruposFragment;
 import com.app.fran.copanamo.fragments.MainFragment;
 import com.app.fran.copanamo.fragments.NoticiasFragment;
+import com.app.fran.copanamo.fragments.VideosFragment;
 import com.app.fran.copanamo.utils.Preferencias;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -130,7 +131,8 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id){
             case R.id.sair:
-                finish();
+            finish();
+            break;
 
         }
         return super.onOptionsItemSelected(item);
@@ -164,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                 .withIcon(GoogleMaterial.Icon.gmd_view_list);
 
         final PrimaryDrawerItem itemResultados = new PrimaryDrawerItem()
-                .withName("Resultado de jogos")
+                .withName("Placares de jogos")
                 .withIdentifier(ID_ND_RESULTADOS)
                 .withIcon(R.drawable.results)
                 .withBadgeStyle(new BadgeStyle()
@@ -290,12 +292,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case (int) ID_ND_VIDEOS:
-                Intent intent_videos = new Intent(MainActivity.this, VideosActivity.class);
-                startActivity( intent_videos );
+                getSupportActionBar().setTitle("Vídeos");
+                ft.replace(R.id.fragment_content, new VideosFragment());
+                ft.commit();
                 break;
 
             case (int) ID_ND_FOOTER:
 
+                //exibe informacoes do app
                 PackageInfo pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
                 String version = pInfo.versionName;
                 alertDialog = new AlertDialog.Builder(this);

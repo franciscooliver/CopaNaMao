@@ -35,6 +35,11 @@ public class PartidaRecyclerAdapter1 extends RecyclerView.Adapter<PartidaRecycle
         private TextView data_partida_2;
         private TextView hora_part1;
         private TextView hora_partisa2;
+        private TextView placar1;
+        private TextView placar2;
+        private TextView placar3;
+        private TextView placar4;
+
 
         public ViewHolder(final View itemView) {
             super(itemView);
@@ -51,6 +56,10 @@ public class PartidaRecyclerAdapter1 extends RecyclerView.Adapter<PartidaRecycle
             data_partida_2 = itemView.findViewById(R.id.data2);
             hora_part1 = itemView.findViewById(R.id.hora1);
             hora_partisa2 = itemView.findViewById(R.id.hora2);
+            placar1  =itemView.findViewById(R.id.placar1);
+            placar2  =itemView.findViewById(R.id.placar2);
+            placar3  =itemView.findViewById(R.id.placar3);
+            placar4  =itemView.findViewById(R.id.placar4);
 
         }
     }
@@ -92,6 +101,11 @@ public class PartidaRecyclerAdapter1 extends RecyclerView.Adapter<PartidaRecycle
         holder.data_partida_2.setText(partida.getData_partida2());
         holder.hora_part1.setText(partida.getHorario_partida1());
         holder.hora_partisa2.setText(partida.getHorario_partida2());
+
+        holder.placar1.setText(partida.getPlacar1());
+        holder.placar2.setText(partida.getPlacar2());
+        holder.placar3.setText(partida.getPlacar3());
+        holder.placar4.setText(partida.getPlacar4());
 
     }
 

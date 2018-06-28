@@ -11,6 +11,8 @@
     <color name="edt_nome_dialog">#bbbfbe</color>
     <color name="fundo_tela_login">#0288d1</color>
 
+    <color name="cor_cam">#daa520</color>
+
 
     <!-- card view-->
     <color name="back_textView">#bdbdbd</color>
